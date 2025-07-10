@@ -53,7 +53,7 @@ const Portfolio = () => {
           {portfolioItems.map((item, index) => (
             <Card 
               key={item.id} 
-              className="card-portfolio slide-up"
+              className="card-portfolio group slide-up"
               style={{ animationDelay: `${index * 200}ms` }}
             >
               <div className="relative overflow-hidden">

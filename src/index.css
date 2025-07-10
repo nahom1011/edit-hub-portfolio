@@ -145,7 +145,7 @@
   }
 
   .card-portfolio {
-    @apply card-glass overflow-hidden group cursor-pointer;
+    @apply card-glass overflow-hidden cursor-pointer;
     @apply transition-all duration-300 hover:scale-105;
     @apply hover:shadow-elevated;
   }
